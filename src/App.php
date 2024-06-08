@@ -54,7 +54,7 @@ class App
 
         while (@ob_end_flush()); // end all output buffers if any
 
-        $cmd = 'cd ' . self::DEV_DIR . '/' . $path . ' && php ' . $file . ' ' . join(' ', $this->args($defaultArgs, $prefix));
+        $cmd = 'cd ' . $path . ' && php ' . $file . ' ' . join(' ', $this->args($defaultArgs, $prefix));
 
         $proc = popen($cmd, 'r');
 
