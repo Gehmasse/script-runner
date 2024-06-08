@@ -1,0 +1,17 @@
+{
+    "name": "leo/script-runner",
+    "description": "run php scripts",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Nickl",
+            "email": "leo@leonickl.de"
+        }
+    ],
+    "require": {}
+}
