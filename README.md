@@ -1,6 +1,6 @@
 # PHP script runner
 
-Stores php scripts and runs them without finding right folders and files first.
+Stores php scripts and runs them without the need to find the folders and files first.
 
 ## Configuration
 
